@@ -9,6 +9,22 @@
 }
 .main_box{
     position: relative;
-    background: url();
+    background: url(images/snopy.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
 }
+.main_box .sidebar_menu{
+    position: fixed;
+    height: 100vh;
+    width: 280px;
+    background: rgba(255,255,255,0.5);
+}
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 0 6px rgba(255,255,255,0.5);
+}
+
 
